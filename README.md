@@ -1,4 +1,4 @@
-![TechSlate](./images/ts.png)
+![TechSlate](./global/images/ts.png)
 
 # Introduction 
  This is the terraform script to create Resource Group,storage account,FunctionApp and AppService Plan using modules.
@@ -59,15 +59,32 @@
   ```
    terraform init
    ```
+
+   ![TF-4.1](images/init.png)
+
   ```
    terraform validate
    ```
+   ![TF-4.1](images/validate.png)
+
   ```
    terraform plan
    ```
+   ![TF-4.1](images/plan1.png)
+
+   ![TF-4.1](images/plan2.png)
+
  ```
    terraform apply
    ```
+   ![TF-4.1](images/apply1.png)
+
+   ![TF-4.1](images/apply2.png)
+
+### Now all the resources are created in Microsoft Azure portal.
+
+   ![TF-4.1](images/output.png)
+
  ```
    terraform destroy
    ```
